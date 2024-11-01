@@ -53,7 +53,7 @@ level = hyper_params['level']
 
 if __name__ == '__main__':
 
-    df = pd.read_csv('../../cases_testbed.csv')
+    df = pd.read_csv('D:/1/code/MicroDig/dataset/cases_testbed.csv')
     info_dict = {}
     for index, row in df.iterrows():
         case_name = row['timestamp']
